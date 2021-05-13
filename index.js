@@ -13,6 +13,7 @@ function show_buy()
         $(document).ready(function(){
             $("#buy").hide(500);
             $("#price").hide(500);
+            flag2++;
         })
     } 
     flag1++; 
