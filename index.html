@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>index</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href="//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        
+        <div id="linear">
+                <div id="navbar" class="start">
+                    <div id="left-side-nav">
+                        <a href="javascript:void(0)" class="left-data">Sell</a>
+                        <a href="javascript:void(0)" class="left-data">Marketplace</a>
+                        <a href="javascript:void(0)" class="left-data">Community</a>
+                        <a href="javascript:void(0)" class="left-data">Develop</a>
+                        <a href="javascript:void(0)" class="left-data">Resources</a> 
+                    </div>
+                    <div id="space"></div>
+                    <div id="right-side-nav">
+                        <a href="javascript:void(0)" class="left-data">Log in</a>
+                        <a href="javascript:void(0)" class="left-data" id="started">Get started</a>
+                        <span class="left-data"><a href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+                <div id="linear-flex" class="start">
+                    <div id="text">
+                        <h1 id="text-h1">Building exactly the 
+                            eCommerce website <br>
+                            you want</h1> <br><br>
+                            <p id="small-after-h1">WooCommerce is a customizable, open-source eCommerce platform built on WordPress.
+                                Get started quickly and make your way.</p><br><br><br>
+                            <p id="links-text"><a href="javascript:void(0)" id="text-1">Start a New Store</a>&nbsp;or&nbsp;<a href="javascript:void(0)" id="text-2">Customize & Extend ›</a></p>
+                    </div>
+                    <div id="images">
+                        <img src="Group 5.png" id="group5" alt="">
+                        <img src="Group 7.png" alt="" id="group7">
+                        <img src="Group 8.png" alt="" id="group8">
+                        <img src="Bitmap.png" alt="" id="bitmap">
+                        <img src="image 15.png" alt="" id="image-15">
+                        <div id="rec221"></div>
+                        <div id="rec222"></div>
+                        <a href="javascript:void(0)" id="sale" onclick="show_buy()">SALE</a>
+                        <div id="buy">
+                            <div id="buy-flex-1">
+                                <h3 id="buy-h3">SHOES</h3>&nbsp;&nbsp;&nbsp;
+                                <p id="buy-small">Adidas originals</p>
+                            </div>
+                            <h2 id="buy-h2">Adidas Originals OG Sneakers</h2>
+                            <div id="buy-flex-2">
+                                <p id="buy-1" class="buy-flex-class">7</p>
+                                <p id="buy-2" class="buy-flex-class">7.5</p>
+                                <p id="buy-3"class="buy-flex-class">8</p>
+                                <p id="buy-4"class="buy-flex-class">8.5</p>
+                                <p id="buy-5"class="buy-flex-class">9</p>
+                            </div>
+                            <div id="buy-flex-3">
+                                <div id="buy-price">
+                                    <p id="dis-price">$344</p>
+                                    <p id="org-price">$560</p>
+                                </div>
+                                &nbsp;&nbsp;&nbsp;
+                                <div id="items">
+                                    <a href="javascript:void(0)" class="inc-dec" id="dec-pair" onclick="dec_value()">-</a>
+                                    <input type="text" readonly value="1" class="inc-dec" id="text-pair">
+                                    <a href="javascript:void(0)"class="inc-dec" id="inc-pair" onclick="inc_value()">+</a>
+                                </div>
+                            </div>
+                            <input type="submit" value="Add to cart" id="add-to-cart" onclick="show_pay_option()">
+                        </div>
+                        <div id="price">
+                            <div id="price-flex-1">
+                                <img src="Stripe-Logo 1.png" alt="stripe-logo" class="price-img">
+                                <p class="price-text">Stripe gateway</p>
+                                <label class="switch" id="stripe-switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <hr class="hr">
+                            <div id="price-flex-2">
+                                <img src="PayPal-Logo 1.png" alt="paypal-logo" class="price-img" id="paypal">
+                                <p class="price-text">Paypal payments</p>
+                                <label class="switch" id="paypal-switch">
+                                    <input type="checkbox" >
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <hr class="hr">
+                            <div id="price-flex-3">
+                                <p class="price-text" id="bank_transfer">Bank Transfers</p>
+                                <label class="switch" id="bank-switch">
+                                    <input type="checkbox" >
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="last-heading-linear">
+                    <h1>Your eCommerce <br> made simple</h1>
+                </div>
+            </div>
+            <div id="last-flex">
+                <div id="last-flex-1">
+                    <div id="last-flex-1-flex">
+                        <img onclick="show_apple_pay_form()" src="kisspng-apple-pay-google-pay-apple-wallet-payment-5b074a74632137 1.png" alt="error" class="last-flex-img" id="apple-pay">
+                        <img src="Rectangle 223.png" alt="error" id="rectangle-223" class="last-flex-img">
+                    </div>
+                    <h2 class="last-flex-h2">All You Need to Start</h2>
+                    <p class="last-flex-p">Add WooCommerce plugin to any WordPress site and <br> set up a new store in minutes.</p>
+                    <a href="javascript:void(0)" class="last-flex-a">Ecommerce for Wordpress ›</a>
+                </div>
+                <div id="last-flex-2">
+                    <img src="image 17.png" alt="error" id="image17">
+                    <img src="image 18.png" alt="error"  id="image18">
+                    <img src="image 19.png" alt="error"  id="image19">
+                    <img src="image 20.png" alt="error"  id="image20">
+                    <img src="image 22.png" alt="error"  id="image22">
+                    <img src="Rectangle 224.png" alt="error" class="last-flex-img" id="rectangle224">
+                    <h2 class="last-flex-h2">Customize and Extend</h2>
+                    <p class="last-flex-p">From subscriptions to gym classes to luxury cars, <br>
+                        WooCommerce is fully customizable.</p>
+                    <a href="javascript:void(0)" class="last-flex-a">Browse Extensions ›</a>
+                </div>
+                <div id="last-flex-3">
+                    <img src="Rectangle 225.png" alt="error" id="rectangle225" class="last-flex-img">
+                    <img src="Rectangle 226.png" alt="error" id="rectangle226">
+                    <img src="Rectangle 227.png" alt="error" id="rectangle227">
+                    <img src="Rectangle 228.png" alt="error" id="rectangle228">
+                    <h2 class="last-flex-h2">Active Community</h2>
+                    <p class="last-flex-p">WooCommerce is one of the fastest-growing <br>
+                        eCommerce communities.</p>
+                    <a href="javascript:void(0)" class="last-flex-a">Check our Forums ›</a>
+                </div>
+            </div>
+            <div id="apple-pay-form">
+                <h3 id="apple-pay-form-heading">Payment</h3>
+                <p id="apple-pay-form-p">Woo commerce can accept both online and offline payments. <a href="javascript:void(0)" id="apple-pay-form-a">Additional <br> payment methods</a>can be installed later</p>
+                <fieldset>
+                    <div id="stripe-apple-pay-form">
+                        <img src="Stripe-Logo 1.png" alt="Stripe-Logo" id="stripe-apple-pay-form-img">
+                        <div id="apple-pay-form-stripe-info">
+                            <p id="apple-pay-form-stripe-p">Accept debit and credit cards in 135+ currencies <br> methods such as Allpay and one touch checkout <br> with aple pay <a href="#" id="apple-pay-form-stripe-a">Learn more</a></p>
+                            <input type="checkbox" onclick="enable_stripe_apple()" name="stripe-apple-pay-form" id="apple-pay-form-stripe-check">
+                            <label for="apple-pay-form-stripe-check" id="apple-pay-form-stripe-label">Set up stripe for me using this Email:</label><br>
+                            <input type="email" id="apple-pay-form-stripe-text" placeholder="info@gmail.com" disabled>
+                        </div>
+                        <label class="switch" id="stripe-switch-apple-pay-form">
+                            <input type="checkbox"  class="switch-apple-pay-form">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div id="paypal-apple-pay-form">
+                        <img src="PayPal-Logo 1.png" alt="PayPal-Logo" id="paypal-apple-pay-form-img">
+                        <div id="apple-pay-form-paypal-info">
+                            <p id="apple-pay-form-paypal-p">Safe and secure payments using credit cards or <br>your customers PayPal account <a href="javascript:void(0)" id="apple-pay-form-paypal-a">Learn more</a></p>
+                            <input type="checkbox" onclick="enable_paypal_apple()" name="paypal-apple-pay-form" id="apple-pay-form-paypal-check">
+                            <label for="apple-pay-form-paypal-check"" id="apple-pay-form-paypal-label">Set up PayPal for me using this Email:</label><br>
+                            <input type="email" id="apple-pay-form-paypal-text" placeholder="info@gmail.com" disabled>
+                        </div>
+                        <label class="switch" >
+                            <input type="checkbox" class="switch-apple-pay-form">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div id="offline-apple-pay-form">
+                        <h3  class="offline-apple-pay-form-heading">Offline payments</h3>
+                        <p class="offline-apple-pay-form-para">Collect payments from customer offline</p>
+                        <a href="javascript:void(0)" id="offline-apple-pay-form-show" onclick="show_jquery()">^</a>
+                    </div>
+                </fieldset>
+                <div id="jquery">
+                    <fieldset>
+                        <div id="offline-apple-pay-form-check">
+                            <h3 class="offline-apple-pay-form-heading">Check payments</h3>
+                            <p class="offline-apple-pay-form-para">A simple offline gateway lets you accept a <br>check as a method of payment</p>
+                            <label class="switch" >
+                                <input type="checkbox" class="switch-apple-pay-form">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div id="offline-apple-pay-form-bank">
+                            <h3 class="offline-apple-pay-form-heading">Bank Transfer <br>(BACS) payments</h3>
+                            <p class="offline-apple-pay-form-para">A simple offline gateway lets you accept a <br>BACS payment</p>
+                            <label class="switch" >
+                                <input type="checkbox" class="switch-apple-pay-form">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div id="offline-apple-pay-form-cod">
+                            <h3 class="offline-apple-pay-form-heading">Cash on delivery</h3>
+                            <p class="offline-apple-pay-form-para" id="offline-apple-pay-form-para-cod">A simple offline gateway lets you accept <br>cash on delivery</p>
+                            <label class="switch" >
+                                <input type="checkbox" class="switch-apple-pay-form">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <script src="index.js"></script>
+    </body>
+</html>

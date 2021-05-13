@@ -1,0 +1,728 @@
+/* adding background image */
+#linear{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100;
+    background-position: center;
+}
+/* navbar styling */
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+/* pushing navbar to a bit right */
+.start
+{
+    margin-left: 10%;
+    
+}
+/* styling for left side elements in navbar */
+#left-side-nav
+{
+   
+    margin-top: 40px;
+}
+/* styling for left side elements in navbar */
+.left-data
+{
+    color:black ;
+    width: 65px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    padding: 15px;
+    text-decoration: none;
+    z-index: -1;
+}
+/* giving space in middle */
+#space{
+    padding-left: 17%;
+    padding-right: 17%;
+}
+/* styling for getting started button  */
+#started
+{
+    background-color: #7854F7;
+    color: white;
+    border-radius: 5px;
+}
+/*  flexbox for images and heading jsut after navbar */
+#linear-flex
+{
+    display: flex;
+    margin-top: 80px;
+
+}
+/* heading after navbar */
+#text-h1
+{
+    width: 50%;
+    height: 115px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 90%;
+    /* or 112% */
+    color: #272D4E;
+}
+#small-after-h1{
+    width: 50%;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #94A2B3;
+}
+#text-1{
+    background: #7854F7;
+    border-radius: 60px;
+    width: 142px;
+    height: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 25px 20px 25px;
+}
+#text-2{
+    width: 199px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 25px;
+    color: #0091ff;
+}
+/*  all images styling in right hand side of flexbox just after navbar (they are poitioned absolutely) */
+#image-15
+{
+    position: absolute;
+    width: 225px;
+    height: 150px;
+    left:51%;
+    top: 140px;
+    border-radius: 15px;
+}
+#bitmap
+{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 55%;
+    top: 200px;
+    border-radius: 15px;
+}
+#rec221
+{
+    position: absolute;
+    width: 88px;
+    height: 57px;
+    left: 90%;
+    top: 490px;
+    background: #EF4358;
+    border-radius: 31.3552px;
+    z-index: 1;
+}
+#rec222
+{
+    position: absolute;
+    width: 75.64px;
+    height: 75.64px;
+    left: 52.5%;
+    top: 400px;
+    background: #FFBA49;
+    border-radius: 37.7902px;
+}
+#sale
+{
+    position: absolute;
+    width: 130px;
+    padding: 2px;
+    left: 70%;
+    top: 180px;
+    background: #70C217;
+    border-radius: 37.7902px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 165% */
+    text-align: center;
+    letter-spacing: 0.4em;
+    color: #FFFFFF;
+}
+/* dots behind images */
+#group5{
+    position: absolute;
+    width: 180px;
+    height: 360px;
+    left: 80.5%;
+    top: 289px;
+}
+#group7
+{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 50%;
+    top: 210px;
+}
+#group8
+{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    left: 72%;
+    top: 115px;
+}
+/*  styling for tab that appears after we press sale */
+#buy
+{
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 20%;
+    height: 300px;
+    left: 80%;
+    top: 200px;
+    padding-left: 30px;
+}
+#buy-flex-1,#buy-flex-2,#buy-flex-3
+{
+    display: flex;
+}
+#buy-h3
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 1.9967px;
+    color: #272D4E;
+}
+#buy-small
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 15px;
+    color: #868686;
+    padding-top: 20px;
+}
+#buy-h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #222222;
+}
+#buy-flex-2
+{
+   padding-left: 20px;
+   margin-bottom: 12px;
+}
+.buy-flex-class
+{
+    padding: 10px;
+    margin: 2px;
+    background: #F6F6F6;
+    border-radius: 4.99174px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    color: #868686;
+}
+#buy-flex-3
+{
+    height: 45px;
+}
+#dis-price
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.998348px;
+    color: #7854F7;
+    margin-left: -12px;
+}
+#org-price
+{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    padding-left: 12px;
+    padding-right: -5px;
+    letter-spacing: 0.998348px;
+    text-decoration-line: line-through;
+    color: #868686;
+}
+#items
+{
+    margin-left: 10px;
+    background: #F6F6F6;
+    border: none;
+    border-radius: 6px;
+}
+.inc-dec
+{
+    width: 50px;
+}
+#text-pair{
+    text-align: center;
+    background: #F6F6F6;
+    border: none;
+    padding-top: 12px;
+}
+#inc-pair,#dec-pair
+{
+    padding-top: 12px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#dec-pair
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#inc-pair
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*  styling for tab that appears after we press add to cart */
+#add-to-cart
+{
+    width: 100%;
+    background: #7854F7;
+    border-radius: 4.99174px;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: Varela,Round,Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.9802px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#price
+{
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 25%;
+    height: 150px;
+    left: 60%;
+    top: 430px;
+    padding-left: 30px;
+    padding-top: 12px;
+    border-radius: 20px;
+}
+#price-flex-1,#price-flex-2,#price-flex-3
+{
+    display: flex;
+    margin: 0;
+}
+/* slider in payment method (green)  */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+  }
+  #stripe-switch{
+    margin-left: 45px;
+  }
+  #paypal-switch{
+    margin-left: 28px;
+  }
+  #bank-switch{
+    margin-left: 40px;
+  }
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #70c217;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #70c217;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 12px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+  }
+  /* styling for logo in add to cart tab */
+.price-img
+  {
+      padding-top: 12px;
+      padding-right: 20px;
+      height: 30px;
+  }
+#paypal
+  {
+    height: 40px;
+  }
+   /* styling for horizontal row in add to cart tab */
+.hr{
+    width: 280px;
+    border: 1px solid #E5EFFF;
+    margin: 0em;
+    margin-top: 0em;
+  }
+.price-text
+  {
+    padding-top: 15px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 30px;
+    color: #94A2B3;
+  }
+#bank_transfer
+  {
+      padding-left: 100px;
+  }
+  /* heading "youe ecommerce made simple" */
+#last-heading-linear
+{
+    margin-top: 130px;
+    /* to center it */
+    display: flex;
+    justify-content: center;
+    
+}
+/* heading "youe ecommerce made simple" */
+#last-heading-linear h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    /* or 127% */
+    text-align: center;
+    color: #272D4E;
+}
+/*  last flexbox on webpage and all its images styling*/
+#last-flex
+{
+    display: flex;
+    justify-content: center;
+}
+.last-flex-img
+{
+    box-shadow: 0px 18px 52.8537px rgba(156, 156, 156, 0.5);
+    border-radius: 20px;
+    width: 330px;
+    height: 193px;  
+}
+#last-flex-1
+{
+    margin-top: 100px;
+}
+#last-flex-1-flex
+{
+    display: flex;
+}
+#apple-pay
+{
+    width: 50px;
+    height: 38px;
+    border-radius: 10px;
+    float: left;
+    cursor: pointer;
+}
+#rectangle225
+{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+#rectangle224
+{
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.last-flex-h2
+{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 70px;
+    color: #272D4E;
+    margin-left: 70px;
+}
+.last-flex-p
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #94A2B3;
+    margin-left: 70px;
+}
+.last-flex-a
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 25px;
+    color: #299EF3;
+    margin-left: 70px;
+}
+
+#image22
+{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 52%;
+    top: 1020px;
+    filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+    border-radius: 10px;
+}
+#image17
+{
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 42%;
+    top: 910px;
+    filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+    border-radius: 10px;
+}
+#image18
+{
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 55%;
+    top: 940px;
+    filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+    border-radius: 10px;
+}
+#image19
+{
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 42%;
+    top: 1000px;
+    filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+    border-radius: 10px;
+}
+
+#image20
+{
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 48%;
+    top: 1100px;
+    filter: drop-shadow(0px 18px 52.8537px rgba(215, 228, 249, 0.5));
+    border-radius: 10px;
+}
+#rectangle226
+{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    left: 87%;
+    top: 1060px;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 10px;
+}
+#rectangle227
+{
+    position: absolute;
+    width: 110px;
+    height: 70px;
+    left: 70%;
+    top: 940px;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 10px;
+}
+#rectangle228
+{
+    position: absolute;
+    width: 110px;
+    height: 70px;
+    left: 80%;
+    top: 850px;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 10px;
+}
+
+/*  styling for form that appears when we press apple pay image */
+#apple-pay-form
+{
+    display: none;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+    left: 50px;
+    top: 920px;
+}
+#stripe-apple-pay-form,#paypal-apple-pay-form,#offline-apple-pay-form,#offline-apple-pay-form-check,#offline-apple-pay-form-bank,#offline-apple-pay-form-cod
+{
+    display: flex;
+}
+#apple-pay-form-heading,.offline-apple-pay-form-heading
+{
+    font-size: 10px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+#apple-pay-form-p
+{
+    font-size: 10px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-right: 5px;
+}
+#apple-pay-form-a,#apple-pay-form-stripe-a,#apple-pay-form-paypal-a
+{
+    color: purple;
+    text-decoration: underline;
+}
+#stripe-apple-pay-form-img,#paypal-apple-pay-form-img
+{
+    width: 25px;
+    height: 20px;
+    padding-top: 5px;
+}
+#apple-pay-form-stripe-p,#apple-pay-form-paypal-p,.offline-apple-pay-form-para
+{
+    font-size: 10px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.offline-apple-pay-form-para
+{
+    padding-top: 15px;
+}
+#offline-apple-pay-form-para-cod
+{
+    padding-left: 25px;
+}
+#offline-apple-pay-form-show
+{
+    padding-left: 25px;
+    margin-top: 15px;
+}
+#apple-pay-form-stripe-check,#apple-pay-form-paypal-check
+{
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+}
+#apple-pay-form-stripe-label,#apple-pay-form-paypal-label
+{
+    font-size: 10px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#apple-pay-form-stripe-text,#apple-pay-form-paypal-text
+{
+    height: 15px;
+    margin-left: 30px;
+    background-color: white;
+}
+#apple-pay-form-stripe-text::placeholder,#apple-pay-form-paypal-text::placeholder
+{
+    font-size: 10px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset
+{
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+}
+/*  styling for checkbox in apple pay form  */
+.switch-apple-pay-form:checked + .slider {
+    background-color: purple;
+  }
+  
+.switch-apple-pay-form:focus + .slider {
+    box-shadow: 0 0 1px purple;
+  }
+  #jquery
+  {
+    display: none;
+  }
